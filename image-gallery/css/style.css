@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+
+
+/*.galleryContent{ float:left; width:100%; padding: 0; }*/
+.galleryContent{
+    width: 100%;
+    padding: 0;
+}
+
+.galleryContent h1{ color:#5f5b5b; font:normal 22px/29px Calibri, "Trebuchet MS", Arial, sans-serif; padding:10px 0 0; text-transform:uppercase; }
+
+.galleryContent h2{ color:#333; font:normal 18px/24px Georgia, "Times New Roman", Times, serif; padding:10px 0 0; }
+
+.galleryContent p{ font:normal 15px/21px Arial, Helvetica, sans-serif; color:#7b7b7b; padding:10px 0; }
+
+.galleryContent p i{ font:italic 15px/21px Arial, Helvetica, sans-serif; color:#7b7b7b; }
+
+.galleryContent a{ color:#ff9c53; }
+
+.galleryContent a:hover{ color:#666; }
+
+.galleryContent strong{ font-weight:bold }
+
+
+
+
+
+.poprtLstPnl{ float:left; width:100%; padding:30px 0 55px 0; }
+
+.poprtLstPnl h1{ color:#5f5b5b; font:22px/29px Georgia, "Times New Roman", Times, serif; text-transform:uppercase; padding:0 0 30px }
+
+.poprtLstDtls{ float:left; margin:2px; width:200px; height:auto; padding:15px; position:relative }
+
+/*.poprtLstDtls img{ margin:0 auto; display:block; padding:3px; background:#fff; border:none; box-shadow:#666 0 0 5px;width:190px; }*/
+
+.poprtLstDtls h3{ color:#464646; font:bold 20px/22px Arial, Helvetica, sans-serif; padding:5px 0; margin:0; text-align:left; margin-top: 10px; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+.poprtLstDtls p{ color:#939390; font:normal 16px/18px Arial, Helvetica, sans-serif; padding:5px 0; margin:0; }
+
+.poprtLstDtls p strong{ color:#61a976; font-weight:bold }
+
+.poprtLstDtls p b{ color:#57c3de; font-weight:bold }
+
+
+
+.poprtLstDtls div.imgpnl{ width:190px; height:143px; border:3px solid #fff; box-shadow:0 0 5px #666; position:relative; margin:0; overflow:hidden; }
+
+.poprtLstDtls div.imgpnl img{ margin: auto; padding:0; position:absolute; left:0; top:0; bottom: 0; border:none; width:100%; height:100%; object-fit: cover; max-width: 100% }
+
+.galleryContent .poprtLstPnl {
+    width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+    float: none;
+}
+
+
+.galleryContent .poprtLstDtls{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+.poprtLstDtls div.dtlsBtn{ display:none }
+
+.poprtLstDtls:hover > div.dtlsBtn{ display:block; width:100%; height:100%; background-color:rgba(000,000,000,0.6); position:absolute; left:0; top:0 }
+
+
+
+div.dtlsBtn a{ display:block; background:url(../images/eyeBtn.png) no-repeat center 65px; height:60%; text-align:center; color:#fff; font:normal 16px/40px Arial, Helvetica, sans-serif; padding:45% 0 0; text-decoration:none; }
+
+.poprtLstDtls:hover div.dtlsBtn a{ color:#fff !important; }
+
+
+
+
+
+.poprtLstDtls div.dtlsBtn1{ display:none }
+
+.poprtLstDtls:hover > div.dtlsBtn1{ display:block; width:100%; height:100%; background-color:rgba(000,000,000,0.6); position:absolute; left:0; top:0 }
+
+
+
+div.dtlsBtn1 a{ display:block; background:url(../images/enlarge.png) no-repeat center 65px; height:60%; text-align:center; color:#a3a2a2; font:normal 16px/40px Arial, Helvetica, sans-serif; padding:40% 0 0; text-decoration:none; }
+
+.poprtLstDtls:hover div.dtlsBtn1 a{ color:#fff !important; }
+
+
+
+.loadMorPnl{ float:left; width:100%; border-top:1px solid #e2e2e2; background:url(../images/loadMorBg.png) no-repeat center top; padding:0 0 70px; margin:30px 0 0; }
+
+.loadMorPnl a{ display:block; font:normal 12px/25px Arial, Helvetica, sans-serif; text-align:center; color:#636060; }
+
+
+
+
+
+a.backBtn{ float:right; margin:22px 0 0; padding:5px 10px; background:#666; display:block; font:normal 12px/20px Arial, Helvetica, sans-serif; color:#fff; text-decoration:none;border-radius:5px; }
+
+a.backBtn:hover{ background:#000; color:#fff; text-decoration:none }
+
+
+
+
+
+/*Loadmore style*/
+
+.ias_loader {
+
+	text-align:center;float:left; width:100%;padding:0 0 70px; margin:30px 0 0;
+
+}
+
+
+
+.ias_trigger{ float:left; width:100%; border-top:1px solid #e2e2e2; background:url(../images/loadMorBg.png) no-repeat center top; padding:0 0 70px; margin:30px 0 0; }
+
+.ias_trigger a:link,
+
+.ias_trigger a:visited {
+
+    display:block; font:normal 12px/25px Arial, Helvetica, sans-serif; text-align:center; color:#636060; text-decoration:none;
+
+}
+
+.ias_trigger a:hover,
+
+.ias_trigger a:active {
+
+    border-color: #ccc;
+
+}
+
+
+
+
+
+
+
+
+
+
+
